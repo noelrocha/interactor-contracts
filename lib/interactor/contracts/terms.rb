@@ -16,6 +16,9 @@ module Interactor
       # @param [Dry::Validation::Schema] terms the terms to start with
       def initialize(terms = Class.new(Dry::Validation::Schema))
         @terms = terms
+        @terms.configure do |config|
+          config.messages = :i18n
+        end
       end
 
       # Add a new set of terms to the list of terms
