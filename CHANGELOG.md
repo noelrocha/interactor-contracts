@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
-* Your contribution here.
+* [#21](https://github.com/michaelherold/interactor-contracts/pull/21): Add support for I18n without the use of Rails - [@noelrocha](https://github.com/noelrocha).
 
 ### Changed
 
